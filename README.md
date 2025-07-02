@@ -1,15 +1,41 @@
-**Title:**
-**A Comparative Study Using Statistical and Machine Learning Modeling Techniques: Linear Regression, Decision Tree, SVR, and ANN on the Diabetes Dataset**
+# A Comparative Study Using Statistical and Machine Learning Modeling Techniques
 
-**Description:**
-This repository contains a Google Colab notebook used to predict diabetes progression values based on the Diabetes dataset from Scikit-Learn.
-The notebook includes the following stages: data loading, data exploration, preprocessing, splitting data into training & testing sets, building and training regression models (Linear Regression, Decision Tree Regressor, Support Vector Regression, and Artificial Neural Network), model evaluation using MSE, RMSE, MAPE, and R² metrics, and visualization of prediction results to compare each model’s performance.
+###  Linear Regression, Decision Tree, SVR, and ANN on the Diabetes Dataset
 
-**Key Features:**
-Implementation of 4 regression methods.
+## 📌 **Description**
 
-Scatter plot and multi-model prediction line visualization.
+This repository contains a **Google Colab notebook** for predicting diabetes progression using the **Diabetes dataset** from **Scikit-Learn**.  
+The goal is to compare multiple regression techniques and evaluate their performance based on various metrics.
 
-Model evaluation with comprehensive error metrics.
+## 🔍 **Objectives**
+
+- Load and explore the Diabetes dataset.
+- Preprocess data to handle missing or zero values.
+- Split data into training and testing sets.
+- Build and train **4 regression models**:
+  - ✅ Linear Regression
+  - ✅ Decision Tree Regressor
+  - ✅ Support Vector Regression (**SVR**)
+  - ✅ Artificial Neural Network (**ANN**)
+- Evaluate model performance using:
+  - Mean Squared Error (**MSE**)
+  - Root Mean Squared Error (**RMSE**)
+  - Mean Absolute Percentage Error (**MAPE**)
+  - R² Score (**R2**)
+- Visualize results to interpret prediction accuracy.
+
+## 🛠️ **Tools Used**
+
+- **Scikit-Learn:** Model building and dataset.
+- **Pandas:** Data manipulation.
+- **NumPy:** Numerical operations.
+- **Matplotlib & Seaborn:** Data visualization.
+- **Google Colab:** Interactive development.
+
+## 📈 **Visualization**
+
+- **Scatter Plot:** Shows actual vs. predicted values for each model.
+- **Line Plot:** Compares prediction trends of all four models.
+- **Evaluation Charts:** Separate charts for MSE, RMSE, MAPE, and R² comparisons.
 
 
